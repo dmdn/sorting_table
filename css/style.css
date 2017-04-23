@@ -1,0 +1,30 @@
+body {
+    margin: 20px 30px;
+    padding: 20px 0;
+    background: #fff4d6;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+    background: #fff9c5;
+
+}
+
+th {
+    text-align: left;
+    background: #ccc;
+    text-align: center;
+}

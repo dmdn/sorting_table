@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS - sorting table</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Сортировка таблицы</h1>
+
+
+<table id='grid'>
+    <caption>Список работников</caption>
+    <thead>
+    <tr>
+        <th class='number'>№<br>
+            <button class="increase">&#9660;</button>
+            <button class="decrease">&#9650;</button>
+        </th>
+        <th class='string'>Фамилия<br>
+            <button class="increase">&#9660;</button>
+            <button class="decrease">&#9650;</button>
+        </th>
+        <th class='string'>Имя<br>
+            <button class="increase">&#9660;</button>
+            <button class="decrease">&#9660;</button>
+        </th>
+        <th class='number'>Возраст, лет<br>
+            <button class="increase">&#9660;</button>
+            <button class="decrease">&#9650;</button>
+        </th>
+        <th class='string'>Профессия<br>
+            <button class="increase">&#9660;</button>
+            <button class="decrease">&#9650;</button>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Иванов</td>
+        <td>Александр</td>
+        <td>21</td>
+        <td>Сварщик</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Петров</td>
+        <td>Евгений</td>
+        <td>69</td>
+        <td>Рабочий 3 р.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Сидоров</td>
+        <td>Андрей</td>
+        <td>29</td>
+        <td>Рабочий 5 р.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Волков</td>
+        <td>Леонид</td>
+        <td>39</td>
+        <td>Рабочий 2 р.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Грек</td>
+        <td>Василий</td>
+        <td>46</td>
+        <td>Подсобный рабочий</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Сидоров</td>
+        <td>Дормидонт</td>
+        <td>29</td>
+        <td>Бригадир</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Пупкин</td>
+        <td>Василий</td>
+        <td>35</td>
+        <td>Сварщик</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Зайцев</td>
+        <td>Акакий</td>
+        <td>53</td>
+        <td>Рабочий 2 р.</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Грек</td>
+        <td>Апалон</td>
+        <td>17</td>
+        <td>Подсобный рабочий</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Белкин</td>
+        <td>Олег</td>
+        <td>60</td>
+        <td>Рабочий 4 р.</td>
+    </tr>
+    </tbody>
+</table>
+
+<script id="tr_add" type="text/html">
+    <tr>
+        <td>{{iNumber}}</td>
+        <td>{{surname}}</td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+        <td>{{profession}}</td>
+    </tr>
+</script>
+
+<script src='js/main.js'></script>
+
+</body>
+</html>
