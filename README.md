@@ -1,5 +1,7 @@
-# Project Description
-The project is designed as an educational one. The table sorts numbers and rows in both ascending and descending order.
+# Sorting Table (JavaScript)
+## Project Description
+- The project is designed as an educational one. The table sorts numbers and rows in both ascending and descending order
+- Sorting HTML table with JavaScript
 
 ## Technical task
 Sort the html table using JavaScript without connecting plugins and libraries.
